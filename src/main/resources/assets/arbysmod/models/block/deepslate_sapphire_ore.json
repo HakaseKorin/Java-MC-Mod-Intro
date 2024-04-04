@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "arbysmod:block/deepslate_sapphire_ore"
+
+  }
+}

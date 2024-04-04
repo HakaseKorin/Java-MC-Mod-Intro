@@ -1,6 +1,10 @@
 {
   "values": [
     "arbysmod:sapphire_block",
-    "arbysmod:raw_sapphire_block"
+    "arbysmod:raw_sapphire_block",
+    "arbysmod:sapphire_ore",
+    "arbysmod:deepslate_sapphire_ore",
+    "arbysmod:nether_sapphire_ore",
+    "arbysmod:end_stone_sapphire_ore"
   ]
 }
