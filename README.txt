@@ -44,3 +44,11 @@ Community Documentation: https://docs.minecraftforge.net/en/latest/gettingstarte
 LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
 Forge Forums: https://forums.minecraftforge.net/
 Forge Discord: https://discord.minecraftforge.net/
+
+Arby's Notes:
+==========================
+this version of the mod uses 1.20.4, This repo is unlikely to be maintained, use with caution.
+uses https://www.youtube.com/watch?v=55qUIf3GMss&list=PLKGarocXCE1H9Y21-pxjt5Pt8bW14twa-&index=1 tutorial
+skips the steps where files are moved to a different directory and removing files ( found that these steps break when trying to runClient)
+you may rename the mod_id and the main class file to whatever your mod will be called
+
