@@ -1,6 +1,7 @@
 package com.example.examplemod.block;
 
 import com.example.examplemod.ArbysMod;
+import com.example.examplemod.block.custom.SoundBlock;
 import com.example.examplemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -49,6 +50,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,7),
                     BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                             .strength(5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(IRON_BLOCK)));
 
     private static  <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = toReturn = BLOCKS.register(name, block);
