@@ -17,5 +17,7 @@
   "block.arbysmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.arbysmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
+  "tooltip.arbysmod.metal_detector.tooltip": "Finds valuables underground!",
+
   "creativetab.arbymod_tab": "Sapphire Tutorial Tab"
 }
