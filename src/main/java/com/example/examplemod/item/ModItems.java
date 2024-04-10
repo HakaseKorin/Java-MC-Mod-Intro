@@ -4,6 +4,8 @@ import com.example.examplemod.ArbysMod;
 import com.example.examplemod.item.custom.FuelItem;
 import com.example.examplemod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +29,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             ()-> new FuelItem(new Item.Properties(), 400));
+
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+            () -> new SwordItem(Tiers.STONE, 5, -2.4F, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
