@@ -30,6 +30,7 @@ public class ModItems {
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             ()-> new FuelItem(new Item.Properties(), 400));
 
+    // TODO: check json files and make a sword png
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(Tiers.STONE, 5, -2.4F, new Item.Properties()));
 
